@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Lai Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #2C0059;
+            color: white;
+        }
+
+        .navbar {
+            background-color: #4F3D94;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .title {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .navbar a {
+            color: #FEE0A1;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: white;
+        }
+
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .main h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .main h2 {
+            font-size: 1.5em;
+            color: #FEE0A1;
+        }
+
+        .main p {
+            font-size: 1.2em;
+            color: #B3A7D1;
+        }
+
+        .profile-image {
+            margin-top: 30px;
+            border-radius: 50%;
+            border: 5px solid #5B7DD1;
+            width: 150px;
+            height: 150px;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            color: #FEE0A1;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .links a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="title"><a href="index.html">Emily Lai</a></div>
+        <div>
+            <a href="about.html">About</a>
+            <a href="experience.html">Professional Experience</a>
+            <a href="presentations.html">Presentations & Events</a>
+            <a href="awards.html">Awards</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Hello! I'm <span style="color: #FEE0A1;">Emily Lai</span></h1>
+        <h2>Software Engineering Student</h2>
+        <p>I'm currently a 4th-year software engineering student seeking a Master's degree in Computer Science or Computer Engineering.</p>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-image">
+        <div class="links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Resume</a>
+            <a href="#">CV</a>
+        </div>
+    </div>
+</body>
+</html>
