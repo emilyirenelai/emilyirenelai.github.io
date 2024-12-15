@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Professional Experience - Emily Lai</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Outfit', sans-serif;
+            background-color: #2C0059;
+            color: white;
+        }
+
+        .navbar {
+            background-color: #4F3D94;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .title {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #8cabf9;
+        }
+
+        .navbar a {
+            color: #FEE0A1;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: white;
+        }
+
+        .main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #FEE0A1;
+        }
+
+        .experience-section {
+            margin-bottom: 40px;
+        }
+
+        .experience-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .experience-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 4px solid #8cabf9;
+        }
+
+        .experience-item .details {
+            max-width: 700px;
+        }
+
+        .experience-item .details h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #FEE0A1;
+        }
+
+        .experience-item .details h4 {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #8cabf9;
+        }
+
+        .experience-item .details p {
+            margin: 10px 0 0;
+            font-size: 0.9em;
+            color: #B3A7D1;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="title"><a href="index.html">Emily Lai</a></div>
+        <div>
+            <a href="about.html">About</a>
+            <a href="experience.html">Professional Experience</a>
+            <a href="presentations.html">Presentations & Events</a>
+            <a href="awards.html">Awards</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Professional Experience</h1>
+
+        <div class="experience-section">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <img src="/images/apple.png" alt="Apple Logo">
+                <div class="details">
+                    <h3>Artificial Intelligence and Machine Learning (AIML) Engineer Intern</h3>
+                    <h4>Apple Inc. | May 2024 - August 2024</h4>
+                    <p>
+                        Leveraged Apple Foundation Model LLMs to analyze deployment pipeline logs, identify key insights in a human-readable format to improve internal debugging efforts.<br>
+                        Improved deployment pipeline efficiency with internship project to identify root causes of deployment issues.<br>
+                        Optimized log collection, reduced data retrieval time by 75% across Splunk, Spinnaker, and Thanos.<br>
+                        Collaborated with cross-functional teams to integrate AI-driven monitoring and analysis of system deployments.
+                    </p>
+                </div>
+            </div>
+            <!-- Additional work experiences -->
+            <!-- Magnestar -->
+            <div class="experience-item">
+                <img src="/images/magnestar.png" alt="Magnestar Logo">
+                <div class="details">
+                    <h3>Space Software Engineering Intern</h3>
+                    <h4>Magnestar Inc. | May 2023 - August 2023</h4>
+                    <p>
+                        Performed database operations, satellite data cleaning, and normalization using MySQL.<br>
+                        Conducted software development using JavaScript, React.js, and PHP.<br>
+                        Independently developed an aerospace traffic prediction model using Python, AWS, Amazon SageMaker, Skyfield API to accurately predict satellite orbits.
+                    </p>
+                </div>
+            </div>
+            <!-- Axcessiom Technologies -->
+            <div class="experience-item">
+                <img src="/images/axcessiom.png" alt="Axcessiom Logo">
+                <div class="details">
+                    <h3>Data Science / Machine Learning Intern</h3>
+                    <h4>Axcessiom Technologies Inc. | January 2022 - April 2023</h4>
+                    <p>
+                        Transformed a core computer vision product to hybridize with an offline voice recognition AI, improving accuracy by 26%.<br>
+                        Led foreign language integration team, increasing customer base by 83%.<br>
+                        Gathered and created data visualizations for funding applications and investor pitches.<br>
+                        Contributed to Project Arrow, Canada's first original full-build zero-emission concept vehicle.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-section">
+            <h2>Research Experience</h2>
+            <!-- Ontario Tech (ISS) -->
+            <div class="experience-item">
+                <img src="/images/ontario_tech.png" alt="Ontario Tech Logo">
+                <div class="details">
+                    <h3>Undergraduate Research Assistant</h3>
+                    <h4>Ontario Tech University | November 2023 - January 2024</h4>
+                    <p>
+                        Assisted in research on satellite streaming health data and analytics from the ISS, contributing to architecture decisions to enhance efficiency and scalability.
+                    </p>
+                </div>
+            </div>
+            <!-- Ontario Tech (Cybersecurity) -->
+            <div class="experience-item">
+                <img src="/images/ontario_tech.png" alt="Ontario Tech Logo">
+                <div class="details">
+                    <h3>Undergraduate Research Assistant</h3>
+                    <h4>Ontario Tech University | January 2024 - May 2024</h4>
+                    <p>
+                        Conducted research on cybersecurity in aerospace software and ADS-B flight tracking, including ground station data pipeline, analytics, and database creation.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-section">
+            <h2>Professional Development Experience</h2>
+            <!-- Add professional development experiences here -->
+        </div>
+    </div>
+</body>
+</html>
